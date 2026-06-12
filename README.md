@@ -1,8 +1,44 @@
-## Introduction to JavaScript
-### Learning Objectives
- * To learn modern JavaScript's implementation of fundamental programming constructs, students can study topics like arrow functions, template literals, destructuring, spread and rest operators, and object and array methods like map, reduce, filter, and forEach.
- * To understand legacy techniques that create unnecessary complexity and risks, students can study topics like callback hell, global variables, and the use of the var keyword.
- * To implement functional, object-oriented, and asynchronous techniques, students can study topics like functional programming concepts like higher-order functions, closures, and currying, object-oriented programming concepts like classes, inheritance, and polymorphism, and asynchronous programming concepts like promises, async/await, and callbacks.
- * To apply fundamentals of modules to efficiently organize and run programs, students can study topics like the module pattern, CommonJS modules, ES6 modules, and module bundlers like webpack.
- * To write efficient, flexible, and concise programs with metaprogramming, students can study topics like the Proxy and Reflect objects, Symbol objects, and the use of code generation techniques like template engines and transpilers.
- * To extend JavaScript's power via JavaScript libraries, frameworks, and platforms, students can study popular libraries and frameworks like React, Angular, Vue, and jQuery, as well as platforms like Node.js and Electron.
+# Core language
+## Day 1
+### Variables, types, and type coercion
+var/let/const, primitives, typeof, implicit vs explicit coercion
+
+## Day 2
+### Strings, template literals, and booleans
+String methods, interpolation, truthy/falsy — mirrors Swift Day 2
+
+## Day 3
+### Arrays, objects, Sets, and Maps
+The JS equivalents of Swift's Arrays, Dictionaries, Sets, and Enums
+
+## Day 4
+### Control flow — if, switch, ternary
+Branching logic, optional chaining intro, nullish coalescing (??)
+
+## Day 5
+### Loops and iteration
+for, while, forEach, for...of, for...in, break/continue
+
+## Day 6
+### Functions, parameters, and defaults
+Function declarations vs expressions, rest params, default values
+
+## Day 7
+### Closures and higher-order functions
+Closure mechanics, passing functions, map/filter/reduce — mirrors Swift Day 9
+
+## Day 8
+### Objects, prototypes, and classes
+Object literals, class syntax, inheritance, this keyword — mirrors Swift Days 10–12
+
+## Day 9
+### Error handling
+try/catch/finally, throwing errors, Error subclasses — mirrors Swift's throwing functions
+
+## Day 10
+### Modules, destructuring, and spread
+ES modules, import/export, destructuring patterns, rest/spread
+
+---
+ 
+Checkpoint 1 (end of Day 10): Build a small data-processing CLI script in pure JS — read an array of objects, filter, sort, and format the output. No browser, no TypeScript yet. Mirrors Swift's checkpoint 9 approach: prove you know the language before building anything.
