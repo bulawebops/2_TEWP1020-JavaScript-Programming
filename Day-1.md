@@ -133,4 +133,3 @@ The reason `const` is the right default isn't dogma — it's that **mutation is 
 
 ---
 
-*When you're ready, continue to Day 2.*
