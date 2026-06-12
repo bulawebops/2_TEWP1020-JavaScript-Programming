@@ -1,4 +1,4 @@
-# Core language
+# Javascript Core Fundamentals
 ## Day 1
 ### Variables, types, and type coercion
 var/let/const, primitives, typeof, implicit vs explicit coercion
