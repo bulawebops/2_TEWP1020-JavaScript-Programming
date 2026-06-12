@@ -41,4 +41,4 @@ ES modules, import/export, destructuring patterns, rest/spread
 
 ---
  
-Checkpoint 1 (end of Day 10): Build a small data-processing CLI script in pure JS — read an array of objects, filter, sort, and format the output. No browser, no TypeScript yet. Mirrors Swift's checkpoint 9 approach: prove you know the language before building anything.
+Checkpoint 1 (end of Day 10): Build a small data-processing CLI script in pure JS — read an array of objects, filter, sort, and format the output. No browser, no TypeScript yet.
