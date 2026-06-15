@@ -1,5 +1,19 @@
 # Day 1 — Variables, Primitives, and Type Coercion
 
+---
+By the end of this lesson, a student should be able to:
+
+- Explain the difference between var, let, and const, and choose the correct one for any situation — defaulting to const, using let when reassignment is needed, and recognizing var as legacy code to avoid.
+- Distinguish between a binding being immutable (const) and a value being immutable — understanding why `const user = {}` still allows `user.name = "Alice"`.
+- Name all seven JavaScript primitives (number, string, boolean, undefined, null, bigint, symbol) and recognize what each represents.
+- Use `typeof` correctly — including knowing its one famous lie: typeof null `===` "object" — and know to use `===` null for explicit null checks.
+- Predict the result of implicit type coercion expressions, particularly around the + operator's dual role as addition and string concatenation.
+- Apply explicit coercion using `Number()`, `String()`, and `Boolean()` and predict their output for edge-case inputs like null, undefined, `""`, and `"0"`.
+- Recall the six falsy values and correctly identify surprising truthy values like `"0"`, `[]`, and `{}`.
+- Choose `===` over `==` by default, and explain why — understanding that `==` introduces silent type coercion that makes code harder to reason about.
+
+---
+
 Let's build the mental model first, then you'll test it live, then you'll do exercises.
 
 ---
